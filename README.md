@@ -2,8 +2,10 @@ TypeScript Exercism
 ===================
 
 
+- [Hello World](/hello-world)
+- [Two Fer](/two-fer)
+- [Leap](/leap)
+- [Resistor Color](/resistor-color)
+- [Resistor Color Duo](/resistor-color-duo)
+- [Resistor Color Trio](/resistor-color-trio)
 
-1. [Hello World](/hello-world)
-2. [Two Fer](/two-fer)
-3. [Resistor Color](/resistor-color)
-4. [Leap](/leap)
