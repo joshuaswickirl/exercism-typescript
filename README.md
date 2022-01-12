@@ -8,4 +8,4 @@ TypeScript Exercism
 - [Resistor Color](/resistor-color)
 - [Resistor Color Duo](/resistor-color-duo)
 - [Resistor Color Trio](/resistor-color-trio)
-
+- [RNA Transcription](/rna-transcription)
