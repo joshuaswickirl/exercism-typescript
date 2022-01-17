@@ -72,7 +72,24 @@ describe('Ability generator', () => {
     expect(abilityScore).toBeGreaterThanOrEqual(3)
     expect(abilityScore).toBeLessThanOrEqual(18)
   })
+
+  const testCases: number[][] = [
+    [0, 3],
+    [0.23942946201579485, 6],
+    [0.2464594298389382, 6],
+    [0.32388262832063885, 6],
+    [0.48418606857179447, 9],
+    [0.5357346965643952, 12],
+    [0.7326939512778132, 15],
+    [0.8468543116900398, 18],
+    [.99, 18],
+  ]
+  test.each(testCases)('"Random" value is %s, score should be %s', (randomResult, expectedAbilityScore) => {
+    const abilityScore = DnDCharacter.generateAbilityScore(() => randomResult)
+    expect(abilityScore).toBe(expectedAbilityScore)
+  })
 })
+
 
 describe('Character creation', () => {
   test('Random character is valid', () => {
