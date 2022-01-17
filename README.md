@@ -10,3 +10,4 @@ TypeScript Exercism
 - [Resistor Color Trio](/resistor-color-trio)
 - [RNA Transcription](/rna-transcription)
 - [Space Age](/space-age)
+- [DnD Character](/dnd-character)
