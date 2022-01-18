@@ -88,8 +88,20 @@ describe('Ability generator', () => {
     const abilityScore = DnDCharacter.generateAbilityScore(() => randomResult)
     expect(abilityScore).toBe(expectedAbilityScore)
   })
-})
 
+  test('Result is sum of highest 3 rolls', () => {
+    const randoms = [0.23942946201579485, 0.48418606857179447, 0.5357346965643952, 0.7326939512778132]
+    let i = 0
+    const random4 = () => {
+      const r = randoms[i]
+      i++
+      return r
+    }
+
+    const abilityScore = DnDCharacter.generateAbilityScore(random4)
+    expect(abilityScore).toEqual(12)
+  })
+})
 
 describe('Character creation', () => {
   test('Random character is valid', () => {

@@ -27,7 +27,7 @@ export class DnDCharacter {
   public static generateAbilityScore(randomGenerator: () => number = Math.random): number {
     const between1and6 = () => Math.floor(randomGenerator() * 6) + 1
     const rolls = [between1and6(), between1and6(), between1and6(), between1and6()]
-    return rolls.sort().slice(0,3).reduce((a, b) => a + b)
+    return rolls.sort().slice(1,4).reduce((a, b) => a + b)
   }
 
   public static getModifierFor(abilityValue: number): number {
