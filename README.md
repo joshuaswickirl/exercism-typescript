@@ -11,3 +11,4 @@ TypeScript Exercism
 - [RNA Transcription](/rna-transcription)
 - [Space Age](/space-age)
 - [DnD Character](/dnd-character)
+- [Pangram](/pangram)
