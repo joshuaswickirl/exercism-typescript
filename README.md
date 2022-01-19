@@ -12,3 +12,4 @@ TypeScript Exercism
 - [Space Age](/space-age)
 - [DnD Character](/dnd-character)
 - [Pangram](/pangram)
+- [Bob](/bob)
