@@ -13,3 +13,4 @@ TypeScript Exercism
 - [DnD Character](/dnd-character)
 - [Pangram](/pangram)
 - [Bob](/bob)
+- [Matrix](/matrix)
